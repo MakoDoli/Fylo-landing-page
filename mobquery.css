@@ -1,0 +1,226 @@
+@media screen and (max-width: 860px) {
+  h1 {
+    font-size: 6.4vw;
+    line-height: 9.6vw;
+    width: 81.066vw;
+    height: 28.8vw;
+    text-align: center;
+    padding: 0;
+  }
+  h2 {
+    font-size: 4.2667vw;
+    line-height: 6.4vw;
+    text-align: center;
+    width: 69.0667vw;
+    height: 6.4vw;
+  }
+  h4 {
+    font-size: 4.8vw;
+    line-height: 6.4vw;
+    margin-bottom: 4.2667vw;
+  }
+  main {
+    margin: 6.4vw 9.3333vw 0 9.3333vw;
+    height: 220vw;
+  }
+  header {
+    height: 12.2667vw;
+    margin-bottom: 23.7333vw;
+  }
+  ul {
+    width: 44.5333vw;
+  }
+  p {
+    font-size: 3.7333vw;
+    line-height: 5.6vw;
+    text-align: center;
+  }
+
+  nav p {
+    font-size: 3.2vw;
+    line-height: 3.7333vw;
+  }
+  .logo {
+    width: 18.6667vw;
+    height: 6.4vw;
+  }
+  .image-1 {
+    display: none;
+  }
+  .image-01 {
+    display: block;
+    width: 100%;
+    height: 60vw;
+  }
+  .container-1 {
+    flex-direction: column;
+
+    width: 100%;
+    height: 730px;
+  }
+  .description {
+    margin-top: 5.3333vw;
+    width: 100%;
+    height: 91.7333vw;
+  }
+  .description P {
+    width: 100%;
+    height: 22.4vw;
+    margin-bottom: 8.5333vw;
+  }
+  .mailform-top {
+    height: 25.6vw;
+    flex-direction: column;
+  }
+  form {
+    flex-direction: column;
+    height: 14.9333vw;
+
+    width: 81.0667vw;
+  }
+  #email {
+    width: 81.0667vw;
+    height: 10.6667vw;
+
+    padding-left: 5.6vw;
+  }
+  .mailform-top p {
+    margin-bottom: 0;
+    height: 4.2667vw;
+  }
+  .wrong {
+    font-size: 2.1333vw;
+    line-height: 2.9333vw;
+  }
+  button {
+    width: 81.0667vw;
+    height: 10.6667vw;
+    margin-left: 0;
+    font-size: 3.7333vw;
+    line-height: 4.2667vw;
+    border-radius: 0.8vw;
+  }
+  .container-2 {
+    background: var(--steam);
+    height: 180vw;
+  }
+  .image-02 {
+    display: block;
+    width: 100%;
+    height: 64.2667vw;
+  }
+  .texts-image {
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+  }
+  .texts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .texts h2 {
+    width: 100%;
+  }
+  .texts p {
+    width: 85.3333vw;
+  }
+  .link {
+    width: 34.6667vw;
+    align-items: flex-end;
+  }
+  .link p {
+    width: 29.3333vw;
+    font-size: 3.2vw;
+    line-height: 4.2667vw;
+    margin-top: 9.6vw;
+  }
+  .card {
+    width: 74.6667vw;
+    height: 45.0667vw;
+    padding-left: 6.9333vw;
+  }
+  .card p {
+    font-size: 3.2vw;
+    line-height: 4.2667vw;
+    width: 64.2667vw;
+    height: 19.4667vw;
+    text-align: left;
+    margin-bottom: 3.2vw;
+  }
+  .profile {
+    width: 6.4vw;
+    border-radius: 50%;
+    margin-right: 2.1333vw;
+  }
+  .author p {
+    font-size: 1.6vw;
+    line-height: 3.2vw;
+    height: 3.2vw;
+    margin-bottom: 0.5333vw;
+  }
+
+  .image-2 {
+    display: none;
+  }
+  .container-3 {
+    height: 92vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign p {
+    font-size: 3.7333vw;
+    line-height: 5.6vw;
+    width: 74.6667vw;
+    height: 22.4vw;
+    margin-bottom: 6.4vw;
+  }
+  .mailform {
+    padding: 0;
+    width: 64vw;
+    height: 19.2vw;
+  }
+  #long-email {
+    height: 8.5333vw;
+    width: 64vw;
+    font-size: 2.6667vw;
+    border-radius: 0.8vw;
+  }
+  .mailform button {
+    width: 64vw;
+    height: 64vw;
+  }
+  footer {
+    height: 157.3333vw;
+    padding-left: 10.4vw;
+  }
+  .last-links {
+    flex-direction: column;
+    margin-top: 8.5333vw;
+    align-items: flex-start;
+  }
+  .icon {
+    width: 4.2667vw;
+    height: 3.2vw;
+    margin-top: 1.3333vw;
+    margin-right: 5.0667vw;
+  }
+  .phone p,
+  .gmail p,
+  footer nav p {
+    line-height: 5.8667vw;
+    margin-bottom: 4.2667vw;
+    margin-left: 0;
+    text-align: left;
+  }
+  footer nav {
+    flex-direction: flex-start;
+  }
+  .fa-brands {
+    width: 7.2vw;
+    height: 7.2vw;
+    padding-top: 1.6vw;
+    font-size: 4.2667vw;
+  }
+}

@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+}
+:root {
+  --darkBlue: hsl(243, 87%, 12%);
+  --midBlue: hsl(238, 22%, 44%);
+  --lightBlue: hsl(224, 93%, 58%);
+  --cyan: hsl(170, 45%, 43%);
+  --steam: hsl(240, 75%, 98%);
+  --grey: hsl(0, 0%, 75%);
+  --hover: #71dfcc;
+}
+
+header {
+  height: 3.1944vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 6.9444vw;
+}
+main {
+  margin: 4.5833vw 80px;
+  display: flex;
+  flex-direction: column;
+}
+ul,
+li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 18.75vw;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.7778vw;
+  line-height: 4.1667vw;
+  color: var(--darkBlue);
+  width: 45vw;
+  height: 8.3333vw;
+  margin-bottom: 1.0417vw;
+}
+h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  color: var(--darkBlue);
+  font-size: 2.7778vw;
+  line-height: 3.2639vw;
+  margin-bottom: 2.6389vw;
+}
+h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1111vw;
+  line-height: 1.3194vw;
+  margin-bottom: 1.1111vw;
+}
+h4 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.222vw;
+  line-height: 3.3333vw;
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  color: var(--darkBlue);
+  font-size: 1.1111vw;
+  line-height: 1.6667vw;
+}
+.image-01 {
+  display: none;
+}
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 32.916vw;
+}
+.image-1 {
+  width: 44.444vw;
+  height: 32.916vw;
+}
+.description {
+  margin-right: 0.9028vw;
+  width: 43.5417vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.description p {
+  width: 40.625vw;
+
+  letter-spacing: 0.0369vw;
+  margin-bottom: 1.7361vw;
+}
+form {
+  width: 22.2222vw;
+  height: 5.347;
+  display: flex;
+  flex-direction: column;
+}
+.mailform-top {
+  width: 37.2222vw;
+  /* height: 5.347; */
+  display: flex;
+  flex-direction: row;
+}
+#email {
+  height: 3.125vw;
+  width: 22.2222vw;
+  padding-left: 1.4583vw;
+  border: 0.0434vw solid #07043b;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 0.217vw;
+}
+.placeholder {
+  color: #c2c2c2;
+}
+button {
+  width: 13.8889vw;
+  height: 3.125vw;
+  background: #2f65f8;
+  margin-left: 1.1111vw;
+  border: none;
+  border-radius: 0.217vw;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9722vw;
+  line-height: 1.1111vw;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #6c9bff;
+}
+.wrong {
+  color: red;
+  font-size: 0.8333vw;
+  line-height: 1.1111vw;
+  display: none;
+  margin-bottom: none;
+}
+.mid-image {
+  max-width: 100%;
+  display: block;
+}
+.image-02 {
+  display: none;
+}
+.container-2 {
+  height: 46.5278vw;
+  width: 100%;
+
+  background: var(--steam);
+}
+.texts-image {
+  height: 100%;
+  background-color: var(--steam);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 5.5556vw;
+
+  justify-content: space-between;
+}
+.texts {
+  width: 45.2vw;
+}
+.texts p {
+  width: 36.7361vw;
+  margin-bottom: 1.1111vw;
+}
+.texts h2 {
+  width: 45.2vw;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  width: 11.5278vw;
+  align-items: center;
+  border-bottom: 1px solid var(--cyan);
+  margin-bottom: 3.125vw;
+}
+.link p {
+  width: 10.1389vw;
+  margin-bottom: 0;
+  margin-right: 0.2083vw;
+  color: var(--cyan);
+}
+.card {
+  box-sizing: border-box;
+  width: 24.7222vw;
+  height: 14.9306vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2.2917vw 1.0417vw 2.2917vw 1.8056vw;
+  background: white;
+  border-radius: 0.3472vw;
+}
+.card p {
+  width: 20.0694vw;
+
+  font-size: 0.9028vw;
+  line-height: 1.5972vw;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+}
+.author {
+  margin-top: 1.1111vw;
+  height: 6.4vw;
+  width: 13.6806vw;
+  display: flex;
+  flex-direction: row;
+}
+.author p {
+  font-size: 0.7639vw;
+  line-height: 1.0417vw;
+  letter-spacing: 0.55px;
+}
+.profile {
+  width: 2.222vw;
+  border-radius: 50%;
+  margin-right: 0.5556vw;
+}
+.image-2 {
+  width: 37.6389vw;
+  height: 28.4028vw;
+}
+.container-3 {
+  width: 100%;
+  height: 21.9444vw;
+  background: var(--midBlue);
+  padding: 6.9444vw 8.3333vw 5.5556vw 5.5556vw;
+  display: flex;
+}
+.sign p {
+  color: white;
+  font-size: 1.1111vw;
+  line-height: 1.6667vw;
+  letter-spacing: 0.5px;
+  width: 37.0139vw;
+}
+.mailform {
+  padding-left: 15.7639vw;
+  display: flex;
+  flex-direction: column;
+}
+#long-email {
+  width: 33.3333vw;
+  padding-left: 1.5278vw;
+  border-radius: 0.217vw;
+  border: none;
+  font-size: 0.8333vw;
+
+  line-height: 3.2vw;
+  padding-left: 2.1333vw;
+}
+.mailform button {
+  margin-left: 0;
+  margin-top: 1.1111vw;
+  width: 13.8889vw;
+}
+footer {
+  width: 100%;
+  height: 27.1528vw;
+  background-color: var(--darkBlue);
+  padding-left: 5.5556vw;
+  padding-top: 6.3889vw;
+  display: flex;
+  flex-direction: column;
+}
+.last-links {
+  margin-top: 2.5694vw;
+  display: flex;
+  flex-direction: row;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 14.3056vw;
+}
+.phone,
+.gmail {
+  display: flex;
+  flex-direction: row;
+}
+.phone p,
+.gmail p,
+footer nav p {
+  color: white;
+  margin-left: 1.1111vw;
+  line-height: 1.6667vw;
+  margin-bottom: 1.1111vw;
+}
+.icon {
+  width: 1.25vw;
+  height: 1.25vw;
+}
+footer nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 13.8889vw;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+}
+.fa-brands {
+  width: 2.1528vw;
+  height: 2.1528vw;
+  color: white;
+  border-radius: 50%;
+  border: 0.1389vw solid white;
+  text-align: center;
+  padding-top: 0.4167vw;
+  margin-right: 0.8333vw;
+  cursor: pointer;
+}
+.fa-brands:hover,
+nav p:hover,
+.link p:hover,
+.link svg:hover g use {
+  color: var(--hover);
+  fill: var(--hover);
+}
